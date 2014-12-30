@@ -1,7 +1,7 @@
 {
   "name": "hubotfy",
   "version": "0.0.1",
-  "description": "Get ascii hubot.",
+  "description": "Get ascii type hubot.",
   "main": "index.js",
   "dependencies": {
     "chalk": "^0.5.1"
