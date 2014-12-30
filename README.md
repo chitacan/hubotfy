@@ -1,6 +1,6 @@
 # hubotfy
 
-Print hubot on your terminal.
+Print [hubot](https://github.com/github/hubot) on your terminal.
 
 ```
                      ________________________
@@ -22,7 +22,7 @@ Print hubot on your terminal.
 
 ## How to use ??
 
-```
+```javascript
 var hubotfy = require('hubotfy');
 var opt = {
   msg   : 'Hello, there?',
