@@ -1,6 +1,6 @@
 # hubotfy
 
-Print [hubot](https://github.com/github/hubot) on your terminal.
+Get ascii [hubot](https://github.com/github/hubot).
 
 ```
                      ________________________
@@ -20,7 +20,7 @@ Print [hubot](https://github.com/github/hubot) on your terminal.
 
 ```
 
-## How to use ??
+## How to get one ??
 
 ```javascript
 var hubotfy = require('hubotfy');
