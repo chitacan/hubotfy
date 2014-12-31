@@ -1,6 +1,6 @@
 # hubotfy
 
-Get ascii type [hubot](https://github.com/github/hubot).
+Get an ascii type [hubot](https://github.com/github/hubot).
 
 ```
                      ________________________
