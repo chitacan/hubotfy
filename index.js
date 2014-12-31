@@ -8,15 +8,15 @@ var ROW    = 3;
 
 /**
  * @param opt Option make hubot on your terminal.
- * @param opt.msg The message to say.
- * @param opt.tpl The hubot template.
+ * @param opt.message The message to say.
+ * @param opt.template The hubot template.
  * @param opt.color Color or black?.
  */
 function hubotfy(opt) {
   opt = opt || {};
-  var msg = opt.msg   || 'Self-replication process complete... Good luck with that.';
-  var tpl = opt.tpl   || 'default';
-  var clr = opt.color || true;
+  var msg = opt.message  || 'Self-replication process complete... Good luck with that.';
+  var tpl = opt.template || 'default';
+  var clr = opt.color    || true;
 
   msg = new Message(msg).lsplit().addSpace().lines;
   var c = clr ? C.cyan   : noColor;

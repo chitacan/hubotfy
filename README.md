@@ -25,9 +25,9 @@ Get an ascii type [hubot](https://github.com/github/hubot).
 ```javascript
 var hubotfy = require('hubotfy');
 var opt = {
-  msg   : 'Hello, there?',
-  tpl   : 'default',
-  color : true
+  message  : 'Hello, there?',
+  template : 'default',
+  color    : true
 }
 
 console.log( hubotfy(opt) );
