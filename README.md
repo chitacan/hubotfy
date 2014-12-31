@@ -22,6 +22,10 @@ Get an ascii type [hubot](https://github.com/github/hubot).
 
 ## How to get one ??
 
+```shell
+$ npm install hubotfy
+```
+
 ```javascript
 var hubotfy = require('hubotfy');
 var opt = {
