@@ -11,12 +11,14 @@ var ROW    = 3;
  * @param opt.message The message to say.
  * @param opt.template The hubot template.
  * @param opt.color Color or black?.
+ * @param opt.eol Set end-of-line.
  */
 function hubotfy(opt) {
   opt = opt || {};
   var msg = opt.message  || 'Self-replication process complete... Good luck with that.';
   var tpl = opt.template || 'default';
   var clr = typeof opt.color == 'undefined' ? true : opt.color;
+  E = opt.eol || E
 
   msg = new Message(msg).lsplit().addSpace().lines;
   var c = clr ? C.cyan   : noColor;
