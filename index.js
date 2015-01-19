@@ -16,7 +16,7 @@ function hubotfy(opt) {
   opt = opt || {};
   var msg = opt.message  || 'Self-replication process complete... Good luck with that.';
   var tpl = opt.template || 'default';
-  var clr = opt.color    || true;
+  var clr = typeof opt.color == 'undefined' ? true : opt.color;
 
   msg = new Message(msg).lsplit().addSpace().lines;
   var c = clr ? C.cyan   : noColor;
